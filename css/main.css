@@ -1,0 +1,50 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    color: #7d97ad;
+    background-color: #7d97ad;
+    height: 2px !important;
+}
+
+#user-name {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#user-role {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.top-section {
+    margin-top: 20px;
+}
+
+#user-name,
+#user-role {
+    color: #2d3c49;
+    text-transform: uppercase;
+}
+
+.featured h2 {
+    color: #7d97ad;
+    font-weight: 900 !important;
+}
+
+.projects h3,
+a {
+    text-transform: uppercase;
+    color: #2d3c49;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+    #logo,
+    #user-name,
+    #user-role,
+    #featured {
+        text-align: center;
+    }
+}
